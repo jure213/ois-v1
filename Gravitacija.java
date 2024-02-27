@@ -18,4 +18,9 @@ public class Gravitacija {
         return (GRAV_KONST * MASA_ZEMLJE)/(razdaljaOdSredisca*razdaljaOdSredisca);
     }
 
+    public static void izpis(int visina) {
+        System.out.println("Nadmorska višina je: " + visina + "m");
+        System.out.printf("Gravitacijski pospešek na tej višini je: %.2f m/s^2\n", gravPospesekZVisino(visina));
+    }
+
 }
