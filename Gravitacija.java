@@ -9,7 +9,12 @@ public class Gravitacija {
 
     public static void main(String[] args) {
         
-        System.out.println("Test!");
+        int km = 1000;
+
+        izpis(0);
+        izpis(10*km);
+        izpis(1000 * km);
+        izpis(100000 * km);
 
     }
 
